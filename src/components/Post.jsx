@@ -24,7 +24,8 @@ export function Post({author, publishedAt, content}) {
     },
     {
       id: 3,
-      content: "Debora Götze",
+      name: "Debora Götze",
+      content: "Sem defeitos",
       avatarUrl: "https://static.wixstatic.com/media/4d6943_3cd63bd7e29a4d909fc7d81e7bc957fc~mv2.jpg/v1/crop/x_0,y_540,w_3460,h_3461/fill/w_452,h_452,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/V1_00266.jpg",
       date: new Date("2023-01-12T12:21:10")
     },

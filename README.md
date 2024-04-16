@@ -1,8 +1,62 @@
-# React + Vite
+<p align="center">
+  <img  src="https://imgur.com/a7z7SZ9" alt="License">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+    <img alt="Letmeask" src="/screenshot.png" />
+</h1>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧪 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [React](https://reactjs.org)
+
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/pedroarch/tuiuiu-feed
+$ cd tuiuiu-feed
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
+
+
+## 💻 Projeto
+
+Tuiuiu Feed é uma ferramenta de feed onde o usuario pode postar, apagar e aplaudir posts. Esse projeto só tem intuito de estudos nao contendo varias funcinalidades
+
+Este é um projeto desenvolvido durante os estudos de React em 2024
+
+
+## 👩‍👩‍👧‍👦 Redes Socais
+
+Pedro Carvalho – [@PedrArch](https://twitter.com/PedroArch) – pedrofrancocarvalho@gmail.com
+
+[https://github.com/PedroArch](https://github.com/PedroArch/)
+
+## 🕶️ Contribua
+
+1. Fork it (<https://github.com/PedroArch/tuiuiu-feed>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
