@@ -1,5 +1,5 @@
 .post {
-  background: var(--gray-800);
+  background: var(--blue-300);
   padding: 2.5rem;
   border-radius: 8px;
 }
@@ -10,12 +10,15 @@
 
 .content {
   line-height: 1.6;
-  color: var(--gray-300);
+  color: var(--white);
   margin-top: 1.5rem;
 }
 
 .content .postTitle {
   font-weight: 700;
+  color: var(--white);
+  font-family: 'Caveat';
+  font-size: 1.5rem;
 }
 
 .content p {
@@ -24,12 +27,12 @@
 
 .content a {
   font-weight: bold;
-  color: var(--green-500);
+  color: var(--yellow-500);
   text-decoration: none;
 }
 
 .content a:hover {
-  color: var(--green-300);
+  color: var(--yellow-800);
 }
 
 .post>header {
@@ -40,7 +43,7 @@
 
 .post>header time {
   font-size: 0.875rem;
-  color: var(--gray-400)
+  color: var(--white)
 }
 
 .author {
@@ -51,14 +54,16 @@
 
 .authorInfo strong {
   display: block;
-  color: (--gray-100);
+  color: var(--white);
   line-height: 1.6;
+  font-family: 'Caveat';
+  font-size: 1.5rem;
 }
 
 .authorInfo span {
   display: block;
   font-size: 0.875rem;
-  color: var(--gray-400);
+  color: var(--white);
   line-height: 1.6;
 }
 
@@ -77,13 +82,13 @@
 
 .commentForm textarea {
   width: 100%;
-  background: var(--gray-900);
-  border: 0;
+  background: var(--white);
+  border: 2px solid var(--coral);
   resize: none;
   height: 6rem;
   padding: 1rem;
   border-radius: 8px;
-  color: var(--gray-100);
+  color: var(--black);
   line-height: 1.4;
   margin-top: 1rem;
 }
@@ -103,8 +108,8 @@
   margin-top: 1rem;
   border-radius: 8px;
   border: 0;
-  background-color: var(--green-500);
-  color: var(--white);
+  background-color: var(--coral);
+  color: var(--yellow-800);
   font-weight: bold;
   cursor: pointer;
 
@@ -112,7 +117,8 @@
 }
 
 .commentForm button[type=submit]:hover {
-  background-color: var(--green-300);
+  background-color: var(--yellow-800);
+  color: var(--coral);
 }
 
 .commentList {

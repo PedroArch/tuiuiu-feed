@@ -1,12 +1,11 @@
 import styles from "./Header.module.css";
 
-import igniteLogo from "../images/ignite-logo.png";
+import tuiuiuLogo from "../images/tuiuiu-logo.png";
 
 export function Header() {
   return (
     <div className={styles.header}>
-      <img src={igniteLogo} alt="Ignite Logo" />
-      <span>Ignite Feed</span>
+      <img src={tuiuiuLogo} alt="Tuiuiu Logo" />
     </div>
   )
 };

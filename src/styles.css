@@ -1,5 +1,7 @@
 :root {
   --white: #ffffff;
+  --black: #000000;
+
   --gray-100: #e1e1e6;
   --gray-300: #c4c4cc;
   --gray-400: #8d8d99;
@@ -12,6 +14,15 @@
   --green-500: #00875f;
 
   --red-500: #f75a68;
+  --coral: #ED6C52;
+
+  --blue-300: #2cb5bb;
+
+  --yellow-500: #FEE27F;
+  --yellow-800: #FCC400;
+
+  --bege-300: #EAE3DA;
+
 }
 
 * {
@@ -22,12 +33,12 @@
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--green-500);
+  box-shadow: 0 0 0 2px var(--coral);
 }
 
 body {
-  background: var(--gray-900);
-  color: var(--gray-300);
+  background: var(--yellow-800);
+  color: var(--black);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -35,7 +46,7 @@ body,
 input,
 textarea,
 button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }

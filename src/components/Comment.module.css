@@ -15,21 +15,23 @@
 .commentBox footer button {
   background-color: transparent;
   border: 0;
-  color: var(--gray-400);
+  color: var(--yellow-500);
   cursor: pointer;
 
   display: flex;
   align-items: center;
+  font-weight: bold;
 
   border-radius: 2px;
 }
 
 .commentBox footer button:hover {
-  color: var(--green-500);
+  color: var(--yellow-800);
 }
 
 .commentBox footer button svg {
   margin-right: 0.5rem;
+  font-weight: bold;
 }
 
 .commentBox footer button span::before {
@@ -38,7 +40,7 @@
 }
 
 .commentContent {
-  background-color: var(--gray-700);
+  background-color: var(--coral);
   border-radius: 8px;
   padding: 1rem;
 }
@@ -52,31 +54,33 @@
 .commentContent header button {
   background-color: transparent;
   border: 0;
-  color: var(--gray-400);
+  color: var(--white);
   cursor: pointer;
   line-height: 0;
   border-radius: 2px;
 }
 
 .commentContent header button:hover {
-  color: var(--red-500);
+  color: var(--yellow-500);
 }
 
 .commentContent p {
   margin-top: 1rem;
-  color: var(--gray-300);
+  color: var(--white);
 }
 
 
 .authorAndTime strong {
   display: block;
-  font-size: 0.875rem;
+  font-size: 1.3rem;
   line-height: 1.6;
+  font-family: 'Caveat';
+  color: var(--white);
 }
 
 .authorAndTime time {
   display: block;
   font-size: 0.75rem;
   line-height: 1.6;
-  color: var(--gray-400);
+  color: var(--white);
 }
