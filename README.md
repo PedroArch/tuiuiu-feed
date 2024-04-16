@@ -1,9 +1,9 @@
 <p align="center">
-  <img  src="https://i.imgur.com/a7z7SZ9.png" alt="License">
+  <img  src="https://i.imgur.com/pAwo9kt.png" alt="License">
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" src="/screenshot.png" />
+    <img alt="Letmeask" src="https://i.imgur.com/a7z7SZ9.png" />
 </h1>
 
 <br>
