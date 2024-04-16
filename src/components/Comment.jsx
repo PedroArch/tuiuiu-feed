@@ -3,11 +3,17 @@ import styles from './Comment.module.css';
 import { Avatar } from './Avatar';
 import { formatDistanceToNow } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
+import { useState } from 'react';
 
 
 export function Comment({ comment, handleDeleteComment }) {
 
-  console.log(comment.date)
+  const [clapCount, setClapCount] = useState(0)
+
+  function handleClapClick() {
+    const newClapCount = clapCount + 1;
+    setClapCount(newClapCount);
+  }
 
   const dateFromNow = formatDistanceToNow(comment.date, { locale: ptBR, addSuffix: true})
 
@@ -32,9 +38,9 @@ export function Comment({ comment, handleDeleteComment }) {
         </div>
 
         <footer>
-          <button>
+          <button onClick={handleClapClick}>
             <ThumbsUp size={20} />
-            Aplaudir <span>15</span>
+            Aplaudir <span>{clapCount}</span>
           </button>
         </footer>
       </div>
